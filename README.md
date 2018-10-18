@@ -6,7 +6,7 @@ Pop Wallet is a DApp browser and Ethereum wallet - designed to be simple and int
 
 - The browser layer is kept as simple and lightweight as possible. Features are traded off for simplicity and functionality is delegated down to the DApp layer. An initial DApp is shipped with Pop Wallet but it is not mandatory for users to access, in general all DApps should be feature rich and browser layer as light as possible.
 
-- No key management for users and no pass phrases for users to write down. The initial version of Pop Wallet encrypts the private key with a password and is only suitable for "small change", not large funds, because if the device is lost then the funds are lost. However future versions will incorporate a smart contract custody system so that the device only acts as an authentication to the funds and backup/recovery is provided by authorising multiple devices.
+- No key management for users and no seed phrases for users to write down. The initial version of Pop Wallet encrypts the private key with a password and is only suitable for "small change", not large funds, because if the device is lost then the funds are lost. However future versions will incorporate a smart contract custody system so that the device only acts as an authentication to the funds and backup/recovery is provided by authorising multiple devices.
 
 - No point of centralisation and no single points of failure. The current version of Pop Wallet is a Google Chrome extension - however future version will be stand-alone browser (to remove Google as a single point of failure). The current version connects to an Infura Ethereum node - however future version will connect to light client running locally to remove this point of centralisation.
 
