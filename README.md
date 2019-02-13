@@ -24,9 +24,9 @@ Basic DApp included to facilitate send/receive of Ether transactions. Also Basic
 - [ ] **Milestone 2** - Introduction of smart contract custody system ("Smart Locker"). Smart Lockers can be created and named to store funds in custody smart contracts and alternative devices can request authorisation to such. Gas relayers will be used so that the custody smart contracts will pay gas fees rather then the authorised accounts.
 Advanced DApp to include Smart Locker management and information on authorised accounts/devices.
 
-- [ ] **Milestone 3** - Replace Chrome extension with stand-alone browser (all OS's), replace Infura with local light client. Extend Smart Lockers to be able to set thresholds and multi-sig behaviour.
+- [ ] **Milestone 3** - Mobile version of stand-alone browser (all OS's).
 
-- [ ] **Milestone 4** - Mobile version of browser (all OS's).
+- [ ] **Milestone 4** - Replace desktop Chrome extension with stand-alone browser (all OS's), replace Infura with local light client. Extend Smart Lockers to be able to set thresholds and multi-sig behaviour.
 
 ## Other features to be considered
 - Potentially replace Ether as default currency with fiat stable coins, e.g. DAI, so that all transactions are in familiar fiat currencies.
